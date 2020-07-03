@@ -1,0 +1,69 @@
+html {
+  display: block;
+  background-color: white;
+}
+a {text-decoration: none;
+  color: black;
+}
+a:hover {color: #42318d;}
+h1 {
+  margin: 30px;
+  font-size: 1.5em;
+
+}
+li {
+  list-style-type: none;
+}
+.navbar-nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  padding-left: 20px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-item a:hover {
+  background-color: rgb(211, 214, 253);
+}
+img {
+  width: 190px;
+  position: static;
+
+}
+.navbar-brand{
+  margin: 10px;
+}
+
+.profil{
+  margin:30px;
+}
+.use{
+  padding-left: 35px;}
+.us {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
+.us:hover {
+  text-decoration: none;
+  color: #42318d;
+  background-color:transparent;
+  display: inline; }
+
+.inf{
+  padding-left: 35px;
+}
